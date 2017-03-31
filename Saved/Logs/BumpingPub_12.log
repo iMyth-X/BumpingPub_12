@@ -1,0 +1,724 @@
+﻿Log file open, 11/28/16 22:00:11
+LogInit:Display: Running engine for game: BumpingPub_12
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1493247036) SRandInit(1493247039).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.140488
+LogInit: Version: 4.12.3-3013449+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3013449
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jun 14 2016 17:53:16
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.11.29-03.00.12:634][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.29-03.00.12:634][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.29-03.00.12:808][  0]LogInit: Computer: ISSTVAN
+[2016.11.29-03.00.12:808][  0]LogInit: User: RudeyPunk
+[2016.11.29-03.00.12:808][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.11.29-03.00.12:808][  0]LogInit: High frequency timer resolution =3.906249 MHz
+[2016.11.29-03.00.12:812][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.11.29-03.00.12:812][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.29-03.00.12:812][  0]LogMemory: Process Physical Memory: 190.25 MB used, 190.25 MB peak
+[2016.11.29-03.00.12:812][  0]LogMemory: Process Virtual Memory: 195.25 MB used, 195.25 MB peak
+[2016.11.29-03.00.12:812][  0]LogMemory: Physical Memory: 4780.62 MB used, 8140.61 MB total
+[2016.11.29-03.00.12:813][  0]LogMemory: Virtual Memory: 553.57 MB used, 134217728.00 MB total
+[2016.11.29-03.00.13:644][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.11.29-03.00.14:827][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.29-03.00.14:911][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2016.11.29-03.00.14:911][  0]LogD3D11RHI:       4060/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.11.29-03.00.14:924][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.11.29-03.00.14:924][  0]LogD3D11RHI:       0/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.11.29-03.00.14:924][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.29-03.00.14:949][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.29-03.00.14:949][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2016.11.29-03.00.14:949][  0]LogWindows: EnumDisplayDevices:
+[2016.11.29-03.00.14:950][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2016.11.29-03.00.14:950][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:1)
+[2016.11.29-03.00.14:951][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2016.11.29-03.00.14:951][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2016.11.29-03.00.14:951][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.11.29-03.00.14:952][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2016.11.29-03.00.14:952][  0]LogD3D11RHI:   Driver Version: 369.09 (internal:21.21.13.6909, unified:369.09)
+[2016.11.29-03.00.14:952][  0]LogD3D11RHI:      Driver Date: 8-1-2016
+[2016.11.29-03.00.14:952][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.29-03.00.14:977][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.29-03.00.15:277][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.11.29-03.00.15:395][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (../../../../../../Games/UE4/BumpingPub_12/Intermediate/Shaders/WorkingDirectory/6092/).
+[2016.11.29-03.00.15:395][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/RUDEYP~1/AppData/Local/Temp/UnrealShaderWorkingDir/8BAC6636417462AC3A09509A303EC2F8/'.
+[2016.11.29-03.00.15:395][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.29-03.00.18:862][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.29-03.00.18:893][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.29-03.00.18:906][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.29-03.00.18:929][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.29-03.00.18:952][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.29-03.00.18:982][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.29-03.00.19:023][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.29-03.00.19:056][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.29-03.00.19:112][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.29-03.00.19:153][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.29-03.00.19:185][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.29-03.00.19:238][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.29-03.00.19:238][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.29-03.00.19:248][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.29-03.00.19:326][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.29-03.00.19:344][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.29-03.00.19:362][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.29-03.00.19:374][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.29-03.00.19:405][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.29-03.00.19:405][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.29-03.00.20:212][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.29-03.00.20:506][  0]LogDerivedDataCache: Loaded boot cache 0.29s 74MB C:/Users/RudeyPunk/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.11.29-03.00.20:506][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/RudeyPunk/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.11.29-03.00.20:506][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Games/UE4/BumpingPub_12/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.29-03.00.20:506][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.29-03.00.20:506][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Games/UE4/BumpingPub_12/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.29-03.00.20:506][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.29-03.00.20:582][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.29-03.00.20:597][  0]LogDerivedDataCache: Using Local data cache path C:/Users/RudeyPunk/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.29-03.00.26:247][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.29-03.00.26:294][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.29-03.00.28:288][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.29-03.00.28:288][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.29-03.00.28:288][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.11.29-03.00.31:401][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2016.11.29-03.00.31:857][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.265513 seconds
+[2016.11.29-03.00.31:923][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.11.29-03.00.31:923][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.11.29-03.00.31:923][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.29-03.00.32:113][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.29-03.00.37:514][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.29-03.00.37:514][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.29-03.00.45:852][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.29-03.00.48:041][  0]SourceControl: Info Source control is disabled
+[2016.11.29-03.00.48:116][  0]SourceControl: Info Source control is disabled
+[2016.11.29-03.00.48:148][  0]SourceControl: Info Source control is disabled
+[2016.11.29-03.00.48:234][  0]SourceControl: Info Source control is disabled
+[2016.11.29-03.00.50:184][  0]LogEngine: Initializing Engine...
+[2016.11.29-03.00.50:230][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.11.29-03.00.50:232][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.11.29-03.00.50:870][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.11.29-03.00.50:997][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.29-03.00.51:063][  0]LogInit: FAudioDevice initialized.
+[2016.11.29-03.00.51:118][  0]LogDerivedDataCache: Saved boot cache 0.05s 74MB C:/Users/RudeyPunk/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.11.29-03.00.51:123][  0]LogInit: Texture streaming: Enabled
+[2016.11.29-03.00.51:519][  0]LogInit: Transaction tracking system initialized
+[2016.11.29-03.00.51:973][  0]BlueprintLog: New page: Editor Load
+[2016.11.29-03.00.54:424][  0]LocalizationService: Info Localization service is disabled
+[2016.11.29-03.00.55:445][  0]LogConsoleResponse:Display: 
+[2016.11.29-03.00.57:137][  0]LogFileCache: Scanning file cache for directory 'D:/Games/UE4/BumpingPub_12/Content/' took 0.04s
+[2016.11.29-03.00.57:137][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.11.29-03.00.57:164][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.29-03.00.59:918][  0]SourceControl: Info Source control is disabled
+[2016.11.29-03.01.00:022][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.29-03.01.00:102][  0]LightingResults: New page: Lighting Build
+[2016.11.29-03.01.00:479][  0]MapCheck: New page: Map Check
+[2016.11.29-03.01.00:479][  0]LightingResults: New page: Lighting Build
+[2016.11.29-03.01.02:496][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.11.29-03.01.03:018][  0]LogEditorServer: Finished looking for orphan Actors (0.009 secs)
+[2016.11.29-03.01.03:097][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.29-03.01.03:184][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 86.659ms to complete.
+[2016.11.29-03.01.03:184][  0]LogFileHelpers: Loading map 'Template_Default' took 3.214
+[2016.11.29-03.01.05:289][  0]LogCollectionManager: Loaded 0 collections in 0.005503 seconds
+[2016.11.29-03.01.05:451][  0]LogFileCache: Scanning file cache for directory 'D:/Games/UE4/BumpingPub_12/Saved/Collections/' took 0.01s
+[2016.11.29-03.01.05:451][  0]LogFileCache: Scanning file cache for directory 'D:/Games/UE4/BumpingPub_12/Content/Developers/RudeyPunk/Collections/' took 0.01s
+[2016.11.29-03.01.05:451][  0]LogFileCache: Scanning file cache for directory 'D:/Games/UE4/BumpingPub_12/Content/Collections/' took 0.01s
+[2016.11.29-03.01.05:451][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000032 seconds
+[2016.11.29-03.01.05:509][  0]LogContentBrowser: Native class hierarchy populated in 0.0372 seconds. Added 2047 classes and 369 folders.
+[2016.11.29-03.01.05:590][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.29-03.01.05:590][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.29-03.01.05:593][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0015 seconds. Added 12 classes and 0 folders.
+[2016.11.29-03.01.05:638][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2016.11.29-03.01.06:768][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.11.29-03.01.06:895][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2016.11.29-03.01.07:642][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.29-03.01.07:951][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.29-03.01.08:147][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.11.29-03.01.08:147][  0]LogLoad: Full Startup: 57.91 seconds (BP compile: 0.64 seconds)
+[2016.11.29-03.01.08:147][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.29-03.01.08:147][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.29-03.01.08:542][  0]LogOcInput: OculusInput pre-init called
+[2016.11.29-03.01.08:995][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.29-03.01.09:910][  0]LogTexture:Display: Building textures: LevelGrid1DStripes (BGRA8)
+[2016.11.29-03.01.10:338][  0]LogRenderer: Reallocating scene render targets to support 988x556 (Frame:2).
+[2016.11.29-03.01.12:799][  7]LogAssetRegistry: Asset discovery search completed in 41.4223 seconds
+[2016.11.29-03.01.12:799][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.11.29-03.01.12:808][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.009025 seconds (updated 0 objects)
+[2016.11.29-03.01.20:732][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Wall_brick_02_N (BC5)
+[2016.11.29-03.01.21:226][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Wall_brick_02_D (AutoDXT)
+[2016.11.29-03.01.23:073][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Wall_brick_02_RGB (AutoDXT)
+[2016.11.29-03.01.24:770][ 19]LogMaterial: Missing cached shader map for material Wall_Material, compiling. 
+[2016.11.29-03.01.25:318][ 19]LogTexture:Display: Building textures: t_Tavern_Inside_floor_brick_02_D (AutoDXT)
+[2016.11.29-03.01.27:610][ 19]LogTexture:Display: Building textures: t_Tavern_Inside_floor_brick_02_N (BC5)
+[2016.11.29-03.01.28:188][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_floor_brick_02_RGB (BC5)
+[2016.11.29-03.01.28:745][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Candlesword_01_RGB (AutoDXT)
+[2016.11.29-03.01.30:642][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Candlesword_01_N (BC5)
+[2016.11.29-03.01.31:180][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Candlesword_01_D (AutoDXT)
+[2016.11.29-03.01.33:337][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_BarCounter_01_RGB (AutoDXT)
+[2016.11.29-03.01.35:227][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_BarCounter_01_N (BC5)
+[2016.11.29-03.01.35:650][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_BarCounter_01_D (AutoDXT)
+[2016.11.29-03.01.37:720][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_OldChair_01_RGB (AutoDXT)
+[2016.11.29-03.01.39:326][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_OldChair_01_N (BC5)
+[2016.11.29-03.01.39:760][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_OldChair_01_D (AutoDXT)
+[2016.11.29-03.01.41:403][ 19]LogTexture:Display: Building textures: T_HighStool_01_N (BC5)
+[2016.11.29-03.01.41:889][ 19]LogTexture:Display: Building textures: T_HighStool_01_D (AutoDXT)
+[2016.11.29-03.01.43:930][ 19]LogTexture:Display: Building textures: T_HighStool_01_RGB (AutoDXT)
+[2016.11.29-03.01.45:576][ 19]LogMaterial: Missing cached shader map for material BasicMaterial, compiling. 
+[2016.11.29-03.01.45:588][ 19]LogMaterial: Missing cached shader map for material BasicMaterial_hardalpha_3S, compiling. 
+[2016.11.29-03.01.45:738][ 19]LogTexture:Display: Building textures: T_Tavern_inside_candleholders_01_D (AutoDXT)
+[2016.11.29-03.01.47:433][ 19]LogTexture:Display: Building textures: t_Tavern_inside_candleholders_01_N (BC5)
+[2016.11.29-03.01.47:901][ 19]LogTexture:Display: Building textures: T_Tavern_inside_candleholders_01_RGB (BC5)
+[2016.11.29-03.01.48:217][ 19]LogMaterial: Missing cached shader map for material BasicMaterial_hardalpha, compiling. 
+[2016.11.29-03.01.48:475][ 19]LogTexture:Display: Building textures: T_Thatched_01_N (BC5)
+[2016.11.29-03.01.49:071][ 19]LogTexture:Display: Building textures: T_Thatched_01_D (AutoDXT)
+[2016.11.29-03.01.51:011][ 19]LogMaterial: Missing cached shader map for material m_Thatched_01, compiling. 
+[2016.11.29-03.01.51:174][ 19]LogTexture:Display: Building textures: T_Dirt_01_RGB (AutoDXT)
+[2016.11.29-03.01.52:654][ 19]LogTexture:Display: Building textures: T_Dirt_01_N (BC5)
+[2016.11.29-03.01.53:181][ 19]LogTexture:Display: Building textures: T_Dirt_01_D (AutoDXT)
+[2016.11.29-03.01.55:140][ 19]LogMaterial: Missing cached shader map for material M_Dirt_01, compiling. 
+[2016.11.29-03.01.55:537][ 19]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.11.29-03.01.59:589][ 19]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2016.11.29-03.01.59:945][ 19]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2016.11.29-03.02.00:194][ 19]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2016.11.29-03.02.00:256][ 19]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.11.29-03.02.01:110][ 19]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.11.29-03.02.01:405][ 19]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2016.11.29-03.02.01:697][ 19]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2016.11.29-03.02.01:932][ 19]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2016.11.29-03.02.02:181][ 19]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2016.11.29-03.02.02:450][ 19]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2016.11.29-03.02.02:710][ 19]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2016.11.29-03.02.02:945][ 19]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.11.29-03.02.04:360][ 19]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2016.11.29-03.02.04:574][ 19]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2016.11.29-03.02.04:737][ 19]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2016.11.29-03.02.04:793][ 19]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.11.29-03.02.05:152][ 19]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.11.29-03.02.05:260][ 19]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2016.11.29-03.02.05:457][ 19]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2016.11.29-03.02.05:613][ 19]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2016.11.29-03.02.05:780][ 19]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2016.11.29-03.02.05:974][ 19]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2016.11.29-03.02.06:165][ 19]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2016.11.29-03.02.06:274][ 19]LogTexture:Display: Building textures: T_Candlelight_01 (AutoDXT)
+[2016.11.29-03.02.06:565][ 19]LogMaterial: Missing cached shader map for material M_Candlelight_01, compiling. 
+[2016.11.29-03.02.06:689][ 19]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2016.11.29-03.02.07:145][ 19]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
+[2016.11.29-03.02.07:162][ 19]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8)
+[2016.11.29-03.02.07:178][ 19]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
+[2016.11.29-03.02.07:214][ 19]LogStaticMesh: Building static mesh M_CupBoard_01...
+[2016.11.29-03.02.07:264][ 19]LogStaticMesh: Built static mesh [0.05s] /Game/BumpingPub/Meshes/M_CupBoard_01.M_CupBoard_01
+[2016.11.29-03.02.07:291][ 19]LogStaticMesh: Building static mesh M_HighStool_01...
+[2016.11.29-03.02.07:295][ 19]LogStaticMesh: Built static mesh [0.00s] /Game/BumpingPub/Meshes/M_HighStool_01.M_HighStool_01
+[2016.11.29-03.02.07:296][ 19]LogStaticMesh: Building static mesh M_IronDrum_01...
+[2016.11.29-03.02.07:332][ 19]LogStaticMesh: Built static mesh [0.03s] /Game/BumpingPub/Meshes/M_IronDrum_01.M_IronDrum_01
+[2016.11.29-03.02.07:345][ 19]LogStaticMesh: Building static mesh M_Ironpan_01...
+[2016.11.29-03.02.07:374][ 19]LogStaticMesh: Built static mesh [0.03s] /Game/BumpingPub/Meshes/M_Ironpan_01.M_Ironpan_01
+[2016.11.29-03.02.07:374][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside...
+[2016.11.29-03.02.07:376][ 19]LogStaticMesh: Built static mesh [0.00s] /Game/BumpingPub/Meshes/M_Tavern_Inside.M_Tavern_Inside
+[2016.11.29-03.02.07:377][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Apple_01...
+[2016.11.29-03.02.07:386][ 19]LogStaticMesh: Built static mesh [0.01s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Apple_01.M_Tavern_Inside_Apple_01
+[2016.11.29-03.02.07:387][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Bag_01...
+[2016.11.29-03.02.07:412][ 19]LogStaticMesh: Built static mesh [0.03s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Bag_01.M_Tavern_Inside_Bag_01
+[2016.11.29-03.02.07:414][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Bag_02...
+[2016.11.29-03.02.07:429][ 19]LogStaticMesh: Built static mesh [0.01s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Bag_02.M_Tavern_Inside_Bag_02
+[2016.11.29-03.02.07:431][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Bag_03...
+[2016.11.29-03.02.07:463][ 19]LogStaticMesh: Built static mesh [0.03s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Bag_03.M_Tavern_Inside_Bag_03
+[2016.11.29-03.02.07:466][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Bag_04...
+[2016.11.29-03.02.07:494][ 19]LogStaticMesh: Built static mesh [0.03s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Bag_04.M_Tavern_Inside_Bag_04
+[2016.11.29-03.02.07:496][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Bag_05...
+[2016.11.29-03.02.07:513][ 19]LogStaticMesh: Built static mesh [0.02s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Bag_05.M_Tavern_Inside_Bag_05
+[2016.11.29-03.02.07:518][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_BarCounter_01...
+[2016.11.29-03.02.07:562][ 19]LogStaticMesh: Built static mesh [0.04s] /Game/BumpingPub/Meshes/M_Tavern_Inside_BarCounter_01.M_Tavern_Inside_BarCounter_01
+[2016.11.29-03.02.07:563][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Basket_01...
+[2016.11.29-03.02.07:572][ 19]LogStaticMesh: Built static mesh [0.01s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Basket_01.M_Tavern_Inside_Basket_01
+[2016.11.29-03.02.07:573][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_bench_01...
+[2016.11.29-03.02.07:640][ 19]LogStaticMesh: Built static mesh [0.07s] /Game/BumpingPub/Meshes/M_Tavern_Inside_bench_01.M_Tavern_Inside_bench_01
+[2016.11.29-03.02.07:676][ 19]MapCheck: Info M_Tavern_Inside_bench_3 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/BumpingPub/Maps/BumpingPub) 
+[2016.11.29-03.02.07:676][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Bowl...
+[2016.11.29-03.02.07:681][ 19]LogStaticMesh: Built static mesh [0.00s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Bowl.M_Tavern_Inside_Bowl
+[2016.11.29-03.02.07:681][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Bread_01...
+[2016.11.29-03.02.07:682][ 19]LogStaticMesh: Built static mesh [0.00s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Bread_01.M_Tavern_Inside_Bread_01
+[2016.11.29-03.02.07:682][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Bread_02...
+[2016.11.29-03.02.07:686][ 19]LogStaticMesh: Built static mesh [0.00s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Bread_02.M_Tavern_Inside_Bread_02
+[2016.11.29-03.02.07:687][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Bread_03...
+[2016.11.29-03.02.07:690][ 19]LogStaticMesh: Built static mesh [0.00s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Bread_03.M_Tavern_Inside_Bread_03
+[2016.11.29-03.02.07:692][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Candleholders_02...
+[2016.11.29-03.02.07:719][ 19]LogStaticMesh: Built static mesh [0.03s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Candleholders_02.M_Tavern_Inside_Candleholders_02
+[2016.11.29-03.02.07:725][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Candleholders_01...
+[2016.11.29-03.02.07:865][ 19]LogStaticMesh: Built static mesh [0.14s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Candleholders_01.M_Tavern_Inside_Candleholders_01
+[2016.11.29-03.02.07:868][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Candleholders_03...
+[2016.11.29-03.02.07:886][ 19]LogStaticMesh: Built static mesh [0.02s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Candleholders_03.M_Tavern_Inside_Candleholders_03
+[2016.11.29-03.02.07:887][ 19]LogStaticMesh: Building static mesh M_Tavern_inside_candles_01...
+[2016.11.29-03.02.07:888][ 19]LogStaticMesh: Built static mesh [0.00s] /Game/BumpingPub/Meshes/M_Tavern_inside_candles_01.M_Tavern_inside_candles_01
+[2016.11.29-03.02.07:888][ 19]LogStaticMesh: Building static mesh M_Tavern_inside_candlestick_01...
+[2016.11.29-03.02.07:894][ 19]LogStaticMesh: Built static mesh [0.01s] /Game/BumpingPub/Meshes/M_Tavern_inside_candlestick_01.M_Tavern_inside_candlestick_01
+[2016.11.29-03.02.07:901][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Candlesword_01...
+[2016.11.29-03.02.08:113][ 19]LogStaticMesh: Built static mesh [0.21s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Candlesword_01.M_Tavern_Inside_Candlesword_01
+[2016.11.29-03.02.08:115][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Cann...
+[2016.11.29-03.02.08:127][ 19]LogStaticMesh: Built static mesh [0.01s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Cann.M_Tavern_Inside_Cann
+[2016.11.29-03.02.08:196][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_chain...
+[2016.11.29-03.02.10:328][ 19]LogStaticMesh: Built static mesh [2.13s] /Game/BumpingPub/Meshes/M_Tavern_Inside_chain.M_Tavern_Inside_chain
+[2016.11.29-03.02.10:333][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Cupboard_03...
+[2016.11.29-03.02.10:352][ 19]LogStaticMesh: Built static mesh [0.02s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Cupboard_03.M_Tavern_Inside_Cupboard_03
+[2016.11.29-03.02.10:357][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Cupboard_02...
+[2016.11.29-03.02.10:374][ 19]LogStaticMesh: Built static mesh [0.02s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Cupboard_02.M_Tavern_Inside_Cupboard_02
+[2016.11.29-03.02.10:380][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Door_01...
+[2016.11.29-03.02.10:420][ 19]LogStaticMesh: Built static mesh [0.04s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Door_01.M_Tavern_Inside_Door_01
+[2016.11.29-03.02.10:427][ 19]MapCheck: Info M_Tavern_Inside_Door_2 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/BumpingPub/Maps/BumpingPub) 
+[2016.11.29-03.02.10:428][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_DoorRock_01...
+[2016.11.29-03.02.10:445][ 19]LogStaticMesh: Built static mesh [0.02s] /Game/BumpingPub/Meshes/M_Tavern_Inside_DoorRock_01.M_Tavern_Inside_DoorRock_01
+[2016.11.29-03.02.10:445][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Fabric_01...
+[2016.11.29-03.02.10:449][ 19]LogStaticMesh: Built static mesh [0.00s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Fabric_01.M_Tavern_Inside_Fabric_01
+[2016.11.29-03.02.10:450][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Fabric_02...
+[2016.11.29-03.02.10:458][ 19]LogStaticMesh: Built static mesh [0.01s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Fabric_02.M_Tavern_Inside_Fabric_02
+[2016.11.29-03.02.10:458][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Firewood_01...
+[2016.11.29-03.02.10:466][ 19]LogStaticMesh: Built static mesh [0.01s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Firewood_01.M_Tavern_Inside_Firewood_01
+[2016.11.29-03.02.10:466][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_floor_brick_02...
+[2016.11.29-03.02.10:466][ 19]LogStaticMesh: Built static mesh [0.00s] /Game/BumpingPub/Meshes/M_Tavern_Inside_floor_brick_02.M_Tavern_Inside_floor_brick_02
+[2016.11.29-03.02.10:467][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Floor_Wood_01...
+[2016.11.29-03.02.10:473][ 19]LogStaticMesh: Built static mesh [0.01s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Floor_Wood_01.M_Tavern_Inside_Floor_Wood_01
+[2016.11.29-03.02.10:475][ 19]MapCheck: Info M_Tavern_Inside_Floor_Wood_4 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/BumpingPub/Maps/BumpingPub) 
+[2016.11.29-03.02.10:476][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Gavelock_01...
+[2016.11.29-03.02.10:480][ 19]LogStaticMesh: Built static mesh [0.00s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Gavelock_01.M_Tavern_Inside_Gavelock_01
+[2016.11.29-03.02.10:498][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Grill_01...
+[2016.11.29-03.02.10:549][ 19]LogStaticMesh: Built static mesh [0.05s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Grill_01.M_Tavern_Inside_Grill_01
+[2016.11.29-03.02.10:550][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Grill_02...
+[2016.11.29-03.02.10:557][ 19]LogStaticMesh: Built static mesh [0.01s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Grill_02.M_Tavern_Inside_Grill_02
+[2016.11.29-03.02.10:558][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_KiwiFruit_01...
+[2016.11.29-03.02.10:562][ 19]LogStaticMesh: Built static mesh [0.00s] /Game/BumpingPub/Meshes/M_Tavern_Inside_KiwiFruit_01.M_Tavern_Inside_KiwiFruit_01
+[2016.11.29-03.02.10:563][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Ladder_01...
+[2016.11.29-03.02.10:600][ 19]LogStaticMesh: Built static mesh [0.04s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Ladder_01.M_Tavern_Inside_Ladder_01
+[2016.11.29-03.02.10:602][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_OldChair_01...
+[2016.11.29-03.02.10:606][ 19]LogStaticMesh: Built static mesh [0.00s] /Game/BumpingPub/Meshes/M_Tavern_Inside_OldChair_01.M_Tavern_Inside_OldChair_01
+[2016.11.29-03.02.10:606][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Orange_01...
+[2016.11.29-03.02.10:611][ 19]LogStaticMesh: Built static mesh [0.00s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Orange_01.M_Tavern_Inside_Orange_01
+[2016.11.29-03.02.10:619][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Pillars...
+[2016.11.29-03.02.10:676][ 19]LogStaticMesh: Built static mesh [0.06s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Pillars.M_Tavern_Inside_Pillars
+[2016.11.29-03.02.10:685][ 19]MapCheck: Info M_Tavern_Inside_Pillars_5 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/BumpingPub/Maps/BumpingPub) 
+[2016.11.29-03.02.10:685][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Plate_01...
+[2016.11.29-03.02.10:688][ 19]LogStaticMesh: Built static mesh [0.00s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Plate_01.M_Tavern_Inside_Plate_01
+[2016.11.29-03.02.10:689][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Plate_02...
+[2016.11.29-03.02.10:692][ 19]LogStaticMesh: Built static mesh [0.00s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Plate_02.M_Tavern_Inside_Plate_02
+[2016.11.29-03.02.10:692][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Roof_01...
+[2016.11.29-03.02.10:693][ 19]LogStaticMesh: Built static mesh [0.00s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Roof_01.M_Tavern_Inside_Roof_01
+[2016.11.29-03.02.10:696][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_RoundTable_01...
+[2016.11.29-03.02.10:704][ 19]LogStaticMesh: Built static mesh [0.01s] /Game/BumpingPub/Meshes/M_Tavern_Inside_RoundTable_01.M_Tavern_Inside_RoundTable_01
+[2016.11.29-03.02.10:706][ 19]MapCheck: Info M_Tavern_Inside_RoundTable_16 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/BumpingPub/Maps/BumpingPub) 
+[2016.11.29-03.02.10:707][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Spoon_01...
+[2016.11.29-03.02.10:711][ 19]LogStaticMesh: Built static mesh [0.00s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Spoon_01.M_Tavern_Inside_Spoon_01
+[2016.11.29-03.02.10:712][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Spoon_02...
+[2016.11.29-03.02.10:714][ 19]LogStaticMesh: Built static mesh [0.00s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Spoon_02.M_Tavern_Inside_Spoon_02
+[2016.11.29-03.02.10:715][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_SquareStool...
+[2016.11.29-03.02.10:720][ 19]LogStaticMesh: Built static mesh [0.01s] /Game/BumpingPub/Meshes/M_Tavern_Inside_SquareStool.M_Tavern_Inside_SquareStool
+[2016.11.29-03.02.10:721][ 19]MapCheck: Info M_Tavern_Inside_SquareStool_3 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/BumpingPub/Maps/BumpingPub) 
+[2016.11.29-03.02.10:722][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_SquareTable...
+[2016.11.29-03.02.10:730][ 19]LogStaticMesh: Built static mesh [0.01s] /Game/BumpingPub/Meshes/M_Tavern_Inside_SquareTable.M_Tavern_Inside_SquareTable
+[2016.11.29-03.02.10:731][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Step...
+[2016.11.29-03.02.10:731][ 19]LogStaticMesh: Built static mesh [0.00s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Step.M_Tavern_Inside_Step
+[2016.11.29-03.02.10:745][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Stove_01...
+[2016.11.29-03.02.10:915][ 19]LogStaticMesh: Built static mesh [0.17s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Stove_01.M_Tavern_Inside_Stove_01
+[2016.11.29-03.02.10:916][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Straw...
+[2016.11.29-03.02.10:922][ 19]LogStaticMesh: Built static mesh [0.01s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Straw.M_Tavern_Inside_Straw
+[2016.11.29-03.02.10:922][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Wall_brick_01...
+[2016.11.29-03.02.10:923][ 19]LogStaticMesh: Built static mesh [0.00s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Wall_brick_01.M_Tavern_Inside_Wall_brick_01
+[2016.11.29-03.02.10:923][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Wall_brick_02...
+[2016.11.29-03.02.10:924][ 19]LogStaticMesh: Built static mesh [0.00s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Wall_brick_02.M_Tavern_Inside_Wall_brick_02
+[2016.11.29-03.02.10:924][ 19]MapCheck: Info M_Tavern_Inside_Wall_brick_02_5 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/BumpingPub/Maps/BumpingPub) 
+[2016.11.29-03.02.10:926][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_WinCast_02...
+[2016.11.29-03.02.10:946][ 19]LogStaticMesh: Built static mesh [0.02s] /Game/BumpingPub/Meshes/M_Tavern_Inside_WinCast_02.M_Tavern_Inside_WinCast_02
+[2016.11.29-03.02.10:951][ 19]MapCheck: Info M_Tavern_Inside_WinCast_15 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/BumpingPub/Maps/BumpingPub) 
+[2016.11.29-03.02.10:953][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_Windows_01...
+[2016.11.29-03.02.10:983][ 19]LogStaticMesh: Built static mesh [0.03s] /Game/BumpingPub/Meshes/M_Tavern_Inside_Windows_01.M_Tavern_Inside_Windows_01
+[2016.11.29-03.02.10:992][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_WinePot...
+[2016.11.29-03.02.11:007][ 19]LogStaticMesh: Built static mesh [0.02s] /Game/BumpingPub/Meshes/M_Tavern_Inside_WinePot.M_Tavern_Inside_WinePot
+[2016.11.29-03.02.11:008][ 19]LogStaticMesh: Building static mesh M_Tavern_Inside_WoodRack_01...
+[2016.11.29-03.02.11:025][ 19]LogStaticMesh: Built static mesh [0.02s] /Game/BumpingPub/Meshes/M_Tavern_Inside_WoodRack_01.M_Tavern_Inside_WoodRack_01
+[2016.11.29-03.02.11:034][ 19]LogStaticMesh: Building static mesh M_Tavern_Sunshine_01...
+[2016.11.29-03.02.11:035][ 19]LogStaticMesh: Built static mesh [0.00s] /Game/BumpingPub/Meshes/M_Tavern_Sunshine_01.M_Tavern_Sunshine_01
+[2016.11.29-03.02.11:035][ 19]MapCheck: Info M_Tavern_Sunshine_01_6 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/BumpingPub/Maps/BumpingPub) 
+[2016.11.29-03.02.11:036][ 19]MapCheck: Info M_Tavern_Sunshine_2 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/BumpingPub/Maps/BumpingPub) 
+[2016.11.29-03.02.11:037][ 19]LogStaticMesh: Building static mesh M_WineCast...
+[2016.11.29-03.02.11:104][ 19]LogStaticMesh: Built static mesh [0.07s] /Game/BumpingPub/Meshes/M_WineCast.M_WineCast
+[2016.11.29-03.02.11:293][ 19]LogTexture:Display: Building textures: Tavern_Inside_Cutlery_RGB (AutoDXT)
+[2016.11.29-03.02.13:169][ 19]LogTexture:Display: Building textures: Tavern_Inside_Cutlery_N (BC5)
+[2016.11.29-03.02.13:670][ 19]LogTexture:Display: Building textures: Tavern_Inside_Cutlery_D (AutoDXT)
+[2016.11.29-03.02.15:665][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_WoodRack_01_RGB (AutoDXT)
+[2016.11.29-03.02.17:522][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_WoodRack_01_N (BC5)
+[2016.11.29-03.02.17:914][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_WoodRack_01_D (AutoDXT)
+[2016.11.29-03.02.19:884][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_bench_01_RGB (AutoDXT)
+[2016.11.29-03.02.21:553][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_bench_01_N (BC5)
+[2016.11.29-03.02.22:084][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_bench_01_D (AutoDXT)
+[2016.11.29-03.02.23:880][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Basket_01_RGB (AutoDXT)
+[2016.11.29-03.02.24:788][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Basket_01_N (BC5)
+[2016.11.29-03.02.25:097][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Basket_01_D (AutoDXT)
+[2016.11.29-03.02.26:021][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Spoon_02_RGB (AutoDXT)
+[2016.11.29-03.02.26:344][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Spoon_02_N (BC5)
+[2016.11.29-03.02.26:449][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Spoon_02_D (AutoDXT)
+[2016.11.29-03.02.27:111][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Bag_03_RGB (AutoDXT)
+[2016.11.29-03.02.28:408][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Bag_03_N (BC5)
+[2016.11.29-03.02.29:001][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Bag_03_D (AutoDXT)
+[2016.11.29-03.02.30:929][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Bag_02_D (AutoDXT)
+[2016.11.29-03.02.32:772][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Bag_02_N (BC5)
+[2016.11.29-03.02.33:134][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Bag_02_RGB (AutoDXT)
+[2016.11.29-03.02.34:471][ 19]LogTexture:Display: Building textures: M_Tavern_Inside_Bag_01_RGB (AutoDXT)
+[2016.11.29-03.02.36:189][ 19]LogTexture:Display: Building textures: M_Tavern_Inside_Bag_01_N (BC5)
+[2016.11.29-03.02.36:633][ 19]LogTexture:Display: Building textures: M_Tavern_Inside_Bag_01_D (AutoDXT)
+[2016.11.29-03.02.38:339][ 19]LogTexture:Display: Building textures: M_Tavern_Inside_fruit_RGB (AutoDXT)
+[2016.11.29-03.02.39:358][ 19]LogTexture:Display: Building textures: M_Tavern_Inside_fruit_N (BC5)
+[2016.11.29-03.02.39:739][ 19]LogTexture:Display: Building textures: M_Tavern_Inside_fruit_D (AutoDXT)
+[2016.11.29-03.02.41:160][ 19]LogTexture:Display: Building textures: M_Ironpan_01_RGB (AutoDXT)
+[2016.11.29-03.02.42:525][ 19]LogTexture:Display: Building textures: M_Ironpan_01_N (BC5)
+[2016.11.29-03.02.42:922][ 19]LogTexture:Display: Building textures: M_Ironpan_01_D (AutoDXT)
+[2016.11.29-03.02.44:477][ 19]LogTexture:Display: Building textures: M_IronDrum_01_RGB (BC5)
+[2016.11.29-03.02.44:852][ 19]LogTexture:Display: Building textures: M_IronDrum_01_N (BC5)
+[2016.11.29-03.02.45:266][ 19]LogTexture:Display: Building textures: M_IronDrum_01_D (AutoDXT)
+[2016.11.29-03.02.46:941][ 19]LogTexture:Display: Building textures: M_CupBoard_01_RGB (AutoDXT)
+[2016.11.29-03.02.48:723][ 19]LogTexture:Display: Building textures: M_CupBoard_01_N (BC5)
+[2016.11.29-03.02.49:188][ 19]LogTexture:Display: Building textures: M_CupBoard_01_D (AutoDXT)
+[2016.11.29-03.02.50:958][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_SquareTable_RGB (AutoDXT)
+[2016.11.29-03.02.52:914][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_SquareTable_N (BC5)
+[2016.11.29-03.02.53:393][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_SquareTable_D (AutoDXT)
+[2016.11.29-03.02.55:381][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Door_01_RGB (AutoDXT)
+[2016.11.29-03.02.57:142][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Door_01_N (BC5)
+[2016.11.29-03.02.57:559][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Door_01_D (AutoDXT)
+[2016.11.29-03.02.59:181][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Roof_01_RGB (BGRA8)
+[2016.11.29-03.02.59:374][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Roof_01_N (BGRA8)
+[2016.11.29-03.02.59:677][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Roof_01_D (BGRA8)
+[2016.11.29-03.03.00:039][ 19]LogTexture:Display: Building textures: M_Tavern_Inside_Grill_01_RGB (AutoDXT)
+[2016.11.29-03.03.00:986][ 19]LogTexture:Display: Building textures: M_Tavern_Inside_Grill_01_N (BC5)
+[2016.11.29-03.03.01:203][ 19]LogTexture:Display: Building textures: M_Tavern_Inside_Grill_01_D (AutoDXT)
+[2016.11.29-03.03.02:286][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_WoodFloor_N (BC5)
+[2016.11.29-03.03.02:822][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_WoodFloor_D (AutoDXT)
+[2016.11.29-03.03.04:669][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_WoodFloor_RGB (AutoDXT)
+[2016.11.29-03.03.06:585][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Firewood_01_RGB (AutoDXT)
+[2016.11.29-03.03.08:271][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Firewood_01_N (BC5)
+[2016.11.29-03.03.08:738][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Firewood_01_D (AutoDXT)
+[2016.11.29-03.03.10:561][ 19]LogTexture:Display: Building textures: M_Tavern_Inside_Fabric_02_RGB (AutoDXT)
+[2016.11.29-03.03.12:211][ 19]LogTexture:Display: Building textures: M_Tavern_Inside_Fabric_02_N (BC5)
+[2016.11.29-03.03.12:666][ 19]LogTexture:Display: Building textures: M_Tavern_Inside_Fabric_02_D (AutoDXT)
+[2016.11.29-03.03.14:500][ 19]LogTexture:Display: Building textures: M_Tavern_Inside_Fabric_01_RGB (AutoDXT)
+[2016.11.29-03.03.16:175][ 19]LogTexture:Display: Building textures: M_Tavern_Inside_Fabric_01_N (BC5)
+[2016.11.29-03.03.16:609][ 19]LogTexture:Display: Building textures: M_Tavern_Inside_Fabric_01_D (AutoDXT)
+[2016.11.29-03.03.18:807][ 19]LogTexture:Display: Building textures: Tavern_02_RGB (AutoDXT)
+[2016.11.29-03.03.25:563][ 19]LogTexture:Display: Building textures: Tavern_02_N (BC5)
+[2016.11.29-03.03.27:329][ 19]LogTexture:Display: Building textures: Tavern_02_D (AutoDXT)
+[2016.11.29-03.03.33:056][ 19]LogTexture:Display: Building textures: M_Tavern_Inside_DoorRock_01_RGB (AutoDXT)
+[2016.11.29-03.03.34:961][ 19]LogTexture:Display: Building textures: M_Tavern_Inside_DoorRock_01_N (BC5)
+[2016.11.29-03.03.35:411][ 19]LogTexture:Display: Building textures: M_Tavern_Inside_DoorRock_01_D (AutoDXT)
+[2016.11.29-03.03.37:467][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_CandLestick_01_S (BC5)
+[2016.11.29-03.03.37:568][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_CandLestick_01_N (BC5)
+[2016.11.29-03.03.37:664][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_CandLestick_01_D (AutoDXT)
+[2016.11.29-03.03.38:133][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Straw_N (BC5)
+[2016.11.29-03.03.38:457][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Straw_D (AutoDXT)
+[2016.11.29-03.03.39:235][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_BurnGround_01_RGB (AutoDXT)
+[2016.11.29-03.03.40:848][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_BurnGround_01_N (BC5)
+[2016.11.29-03.03.41:260][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_BurnGround_01_D (AutoDXT)
+[2016.11.29-03.03.43:229][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Stove_01_RGB (AutoDXT)
+[2016.11.29-03.03.45:150][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Stove_01_N (BC5)
+[2016.11.29-03.03.45:546][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Stove_01_D (AutoDXT)
+[2016.11.29-03.03.47:324][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Firewood_02_RGB (AutoDXT)
+[2016.11.29-03.03.48:333][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Firewood_02_N (BC5)
+[2016.11.29-03.03.48:700][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Firewood_02_D (AutoDXT)
+[2016.11.29-03.03.49:572][ 19]LogTexture:Display: Building textures: M_Tavern_Inside_Firewood (AutoDXT)
+[2016.11.29-03.03.49:601][ 19]LogMaterial: Missing cached shader map for material BasicMaterial_emss, compiling. 
+[2016.11.29-03.03.50:215][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Spoon_01_RGB (AutoDXT)
+[2016.11.29-03.03.51:142][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Spoon_01_N (BC5)
+[2016.11.29-03.03.51:610][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Spoon_01_D (AutoDXT)
+[2016.11.29-03.03.53:744][ 19]LogTexture:Display: Building textures: M_Tavern_Inside_RoundTable_01_S (BC5)
+[2016.11.29-03.03.55:222][ 19]LogTexture:Display: Building textures: M_Tavern_Inside_RoundTable_01_N (BC5)
+[2016.11.29-03.03.57:059][ 19]LogTexture:Display: Building textures: M_Tavern_Inside_RoundTable_01_D (AutoDXT)
+[2016.11.29-03.04.04:353][ 19]LogTexture:Display: Building textures: Tavern_04_RGB (AutoDXT)
+[2016.11.29-03.04.10:953][ 19]LogTexture:Display: Building textures: Tavern_04_N (BC5)
+[2016.11.29-03.04.12:896][ 19]LogTexture:Display: Building textures: Tavern_04_D (AutoDXT)
+[2016.11.29-03.04.19:266][ 19]LogTexture:Display: Building textures: Tavern_03_RGB (AutoDXT)
+[2016.11.29-03.04.26:229][ 19]LogTexture:Display: Building textures: Tavern_03_N (BC5)
+[2016.11.29-03.04.28:037][ 19]LogTexture:Display: Building textures: Tavern_03_D (AutoDXT)
+[2016.11.29-03.04.34:920][ 19]LogTexture:Display: Building textures: Tavern_01_RGB (AutoDXT)
+[2016.11.29-03.04.42:224][ 19]LogTexture:Display: Building textures: Tavern_01_N (BC5)
+[2016.11.29-03.04.44:015][ 19]LogTexture:Display: Building textures: Tavern_01_D (AutoDXT)
+[2016.11.29-03.04.50:531][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Ladder_01_RGB (AutoDXT)
+[2016.11.29-03.04.52:214][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Ladder_01_N (BC5)
+[2016.11.29-03.04.52:657][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Ladder_01_D (AutoDXT)
+[2016.11.29-03.04.54:243][ 19]LogTexture:Display: Building textures: M_Tavern_Sunshine (AutoDXT)
+[2016.11.29-03.04.54:344][ 19]LogMaterial: Missing cached shader map for material MI_Tavern_Sunshine, compiling. 
+[2016.11.29-03.04.54:822][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Windows_01_RGB (BC5)
+[2016.11.29-03.04.55:314][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Windows_01_N (BC5)
+[2016.11.29-03.04.55:834][ 19]LogTexture:Display: Building textures: T_Tavern_Inside_Windows_01_D (AutoDXT)
+[2016.11.29-03.04.58:006][ 19]LogTexture:Display: Building textures: T_WineCast_RGB (AutoDXT)
+[2016.11.29-03.05.00:126][ 19]LogTexture:Display: Building textures: T_WineCast_N (BC5)
+[2016.11.29-03.05.00:559][ 19]LogTexture:Display: Building textures: T_WineCast_D (AutoDXT)
+[2016.11.29-03.05.02:166][ 19]LogAIModule: Creating AISystem for world BumpingPub
+[2016.11.29-03.05.02:616][ 19]Cmd: MAP LOAD FILE="../../../../../../Games/UE4/BumpingPub_12/Content/BumpingPub/Maps/BumpingPub.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.29-03.05.02:618][ 19]LightingResults: New page: Lighting Build
+[2016.11.29-03.05.02:620][ 19]LoadErrors: New page: Loading map: BumpingPub.umap
+[2016.11.29-03.05.02:703][ 19]MapCheck: New page: Map Check
+[2016.11.29-03.05.02:703][ 19]LightingResults: New page: Lighting Build
+[2016.11.29-03.05.03:246][ 19]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.29-03.05.03:336][ 19]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.29-03.05.04:102][ 19]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 765.102ms to complete.
+[2016.11.29-03.05.04:103][ 19]LogFileHelpers: Loading map 'BumpingPub' took 1.616
+[2016.11.29-03.05.04:645][ 21]LogHttp:Warning: Timeout processing Http request. 0000018C83775D80
+[2016.11.29-03.06.03:544][881]Cmd: TRANSACTION UNDO
+[2016.11.29-03.06.03:562][881]LogEditorTransaction: Undo Edit Indirect Lighting Intensity
+[2016.11.29-03.06.12:614][941]Cmd: TRANSACTION UNDO
+[2016.11.29-03.06.12:614][941]LogEditorTransaction: Undo Edit Indirect Lighting Intensity
+[2016.11.29-03.08.20:002][ 78]Cmd: TRANSACTION UNDO
+[2016.11.29-03.08.20:002][ 78]LogEditorTransaction: Undo Edit Exposure Bias
+[2016.11.29-03.09.38:654][ 57]Cmd: QUIT_EDITOR
+[2016.11.29-03.09.39:161][ 57]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.29-03.09.39:262][ 57]LogExit: Preparing to exit.
+[2016.11.29-03.09.40:898][ 57]LogExit: Editor shut down
+[2016.11.29-03.09.40:903][ 57]LogExit: Transaction tracking system shut down
+[2016.11.29-03.09.44:291][ 57]LogObj: Freed 0b from 0 cluster array pools.
+[2016.11.29-03.09.44:293][ 57]LogExit: Object subsystem successfully closed.
+[2016.11.29-03.09.44:570][ 57]LogD3D11RHI: Shutdown
+[2016.11.29-03.09.44:578][ 57]LogD3D11RHI: CleanupD3DDevice
+[2016.11.29-03.09.44:712][ 57]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.11.29-03.09.45:493][ 57]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.11.29-03.09.45:503][ 57]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.11.29-03.09.45:503][ 57]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.11.29-03.09.45:503][ 57]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.11.29-03.09.45:509][ 57]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.11.29-03.09.45:572][ 57]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.11.29-03.09.45:572][ 57]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.11.29-03.09.45:572][ 57]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.11.29-03.09.45:598][ 57]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.11.29-03.09.45:632][ 57]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.11.29-03.09.45:633][ 57]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.11.29-03.09.45:652][ 57]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.11.29-03.09.45:652][ 57]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.11.29-03.09.45:652][ 57]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.11.29-03.09.45:652][ 57]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.11.29-03.09.45:652][ 57]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.11.29-03.09.45:668][ 57]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.11.29-03.09.45:680][ 57]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.11.29-03.09.45:680][ 57]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.11.29-03.09.45:695][ 57]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.11.29-03.09.45:695][ 57]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.11.29-03.09.45:709][ 57]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.11.29-03.09.45:720][ 57]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.11.29-03.09.45:733][ 57]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.11.29-03.09.45:733][ 57]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.11.29-03.09.45:733][ 57]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.11.29-03.09.45:733][ 57]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.11.29-03.09.45:733][ 57]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.11.29-03.09.45:735][ 57]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.11.29-03.09.45:753][ 57]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.11.29-03.09.45:762][ 57]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.11.29-03.09.45:762][ 57]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.11.29-03.09.45:767][ 57]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.11.29-03.09.45:767][ 57]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.11.29-03.09.46:110][ 57]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.11.29-03.09.46:129][ 57]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.11.29-03.09.46:129][ 57]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.11.29-03.09.46:129][ 57]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.11.29-03.09.46:147][ 57]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.11.29-03.09.46:147][ 57]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.11.29-03.09.46:157][ 57]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.11.29-03.09.46:157][ 57]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.11.29-03.09.46:177][ 57]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.11.29-03.09.46:188][ 57]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.11.29-03.09.46:199][ 57]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.11.29-03.09.46:218][ 57]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.11.29-03.09.46:225][ 57]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.11.29-03.09.46:225][ 57]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.11.29-03.09.46:225][ 57]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.11.29-03.09.46:239][ 57]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.11.29-03.09.46:244][ 57]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.11.29-03.09.46:245][ 57]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.11.29-03.09.46:265][ 57]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.11.29-03.09.46:265][ 57]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.11.29-03.09.46:273][ 57]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.11.29-03.09.46:289][ 57]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.11.29-03.09.46:305][ 57]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.11.29-03.09.46:333][ 57]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.11.29-03.09.46:333][ 57]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.11.29-03.09.46:402][ 57]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.11.29-03.09.46:417][ 57]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.11.29-03.09.46:430][ 57]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.11.29-03.09.46:446][ 57]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.11.29-03.09.46:446][ 57]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.11.29-03.09.46:455][ 57]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.11.29-03.09.46:455][ 57]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.11.29-03.09.46:498][ 57]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.11.29-03.09.46:504][ 57]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.11.29-03.09.46:554][ 57]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.11.29-03.09.46:572][ 57]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.11.29-03.09.46:580][ 57]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.11.29-03.09.46:608][ 57]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.11.29-03.09.46:636][ 57]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.11.29-03.09.46:636][ 57]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.11.29-03.09.46:661][ 57]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.11.29-03.09.46:661][ 57]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.11.29-03.09.46:661][ 57]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.11.29-03.09.46:662][ 57]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.11.29-03.09.46:662][ 57]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.11.29-03.09.46:662][ 57]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.11.29-03.09.46:662][ 57]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.11.29-03.09.46:662][ 57]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.11.29-03.09.46:674][ 57]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.11.29-03.09.46:687][ 57]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.11.29-03.09.46:687][ 57]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.11.29-03.09.46:840][ 57]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.11.29-03.09.46:854][ 57]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.11.29-03.09.46:854][ 57]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.11.29-03.09.46:854][ 57]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.11.29-03.09.46:854][ 57]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.11.29-03.09.46:854][ 57]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.11.29-03.09.46:854][ 57]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.11.29-03.09.46:854][ 57]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.11.29-03.09.46:854][ 57]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.11.29-03.09.46:854][ 57]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.11.29-03.09.46:854][ 57]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.11.29-03.09.46:867][ 57]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.11.29-03.09.46:867][ 57]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.11.29-03.09.46:867][ 57]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.11.29-03.09.46:867][ 57]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.11.29-03.09.46:867][ 57]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.11.29-03.09.46:874][ 57]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.11.29-03.09.46:874][ 57]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.11.29-03.09.46:890][ 57]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.11.29-03.09.46:900][ 57]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.11.29-03.09.46:900][ 57]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.11.29-03.09.46:922][ 57]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.11.29-03.09.46:944][ 57]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.11.29-03.09.46:962][ 57]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.11.29-03.09.46:994][ 57]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.11.29-03.09.46:994][ 57]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.11.29-03.09.47:003][ 57]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.11.29-03.09.47:003][ 57]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.11.29-03.09.47:005][ 57]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.11.29-03.09.47:019][ 57]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.11.29-03.09.47:028][ 57]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.11.29-03.09.47:028][ 57]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.11.29-03.09.47:053][ 57]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.11.29-03.09.47:057][ 57]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.11.29-03.09.47:078][ 57]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.11.29-03.09.47:179][ 57]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.11.29-03.09.47:179][ 57]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.11.29-03.09.47:194][ 57]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.11.29-03.09.47:194][ 57]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.11.29-03.09.47:194][ 57]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.11.29-03.09.47:202][ 57]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.11.29-03.09.47:202][ 57]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.11.29-03.09.47:213][ 57]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.11.29-03.09.47:213][ 57]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.11.29-03.09.47:213][ 57]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.11.29-03.09.47:226][ 57]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.11.29-03.09.47:226][ 57]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.11.29-03.09.47:226][ 57]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.11.29-03.09.47:247][ 57]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.11.29-03.09.47:247][ 57]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.11.29-03.09.47:253][ 57]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.11.29-03.09.47:273][ 57]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.11.29-03.09.47:273][ 57]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.11.29-03.09.47:273][ 57]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.11.29-03.09.47:293][ 57]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.11.29-03.09.47:310][ 57]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.11.29-03.09.47:336][ 57]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.11.29-03.09.47:361][ 57]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.11.29-03.09.47:361][ 57]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.11.29-03.09.47:382][ 57]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.11.29-03.09.47:382][ 57]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.11.29-03.09.47:382][ 57]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.11.29-03.09.47:383][ 57]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.11.29-03.09.47:383][ 57]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.11.29-03.09.47:383][ 57]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.11.29-03.09.47:398][ 57]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.11.29-03.09.47:645][ 57]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.11.29-03.09.47:646][ 57]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.11.29-03.09.47:646][ 57]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.11.29-03.09.47:666][ 57]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.11.29-03.09.47:706][ 57]LogDerivedDataCache: Shutdown
+[2016.11.29-03.09.47:706][ 57]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.11.29-03.09.47:717][ 57]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.11.29-03.09.47:721][ 57]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.11.29-03.09.47:732][ 57]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.11.29-03.09.47:756][ 57]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.11.29-03.09.47:756][ 57]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.11.29-03.09.47:766][ 57]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.11.29-03.09.47:771][ 57]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.11.29-03.09.47:771][ 57]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.11.29-03.09.47:771][ 57]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.11.29-03.09.47:771][ 57]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.11.29-03.09.47:771][ 57]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.11.29-03.09.47:783][ 57]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.11.29-03.09.47:800][ 57]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.11.29-03.09.47:807][ 57]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.11.29-03.09.47:807][ 57]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.11.29-03.09.47:812][ 57]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.11.29-03.09.47:815][ 57]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.11.29-03.09.47:815][ 57]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.11.29-03.09.47:815][ 57]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.11.29-03.09.47:815][ 57]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.11.29-03.09.47:815][ 57]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.11.29-03.09.47:815][ 57]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.11.29-03.09.47:826][ 57]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.11.29-03.09.47:826][ 57]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.11.29-03.09.47:826][ 57]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.11.29-03.09.47:826][ 57]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.11.29-03.09.47:826][ 57]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.11.29-03.09.47:826][ 57]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.11.29-03.09.47:826][ 57]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.11.29-03.09.47:826][ 57]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.11.29-03.09.47:835][ 57]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.11.29-03.09.47:843][ 57]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.11.29-03.09.47:854][ 57]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.11.29-03.09.47:854][ 57]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.11.29-03.09.47:865][ 57]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.11.29-03.09.47:865][ 57]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.11.29-03.09.47:865][ 57]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.11.29-03.09.47:865][ 57]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.11.29-03.09.50:876][ 57]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.11.29-03.09.50:897][ 57]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.11.29-03.09.50:918][ 57]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.11.29-03.09.50:918][ 57]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.11.29-03.09.50:929][ 57]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.11.29-03.09.50:929][ 57]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.11.29-03.09.50:929][ 57]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.11.29-03.09.50:980][ 57]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.11.29-03.09.50:990][ 57]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.11.29-03.09.50:990][ 57]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.11.29-03.09.51:004][ 57]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.11.29-03.09.51:004][ 57]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.11.29-03.09.51:005][ 57]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.11.29-03.09.51:005][ 57]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.11.29-03.09.51:034][ 57]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.11.29-03.09.51:042][ 57]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.11.29-03.09.51:051][ 57]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.11.29-03.09.51:075][ 57]LogExit: Exiting.
+[2016.11.29-03.09.51:093][ 57]Log file closed, 11/28/16 22:09:51
